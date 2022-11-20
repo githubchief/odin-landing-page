@@ -1,0 +1,170 @@
+body {
+    font-family: 'Times New Roman', Times, serif ;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    border-radius: 0.4rem;
+    padding: 0.25rem 1rem;
+    justify-content: center;
+    margin-right: auto;
+    background-color: #3882f6;
+    border-style: none;
+}
+
+.section-hero {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 2rem 8rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.left-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 18px;
+}
+
+.hero-container {
+    margin: 64px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.hero-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+}
+
+.hero-right-side {
+  max-width:3000px;
+  max-height:1500px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.section-body {
+    padding: 1rem 8rem;
+    padding-bottom: 8rem;
+}
+
+.body-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cards {
+    width:200px;
+    height:200px;
+    border-radius: 1rem;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width:200px;
+    height:200px;
+    border-color: aqua;
+    border-radius: 1rem;
+    background-color: #3b4a5e;
+}
+
+.text {
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    padding: 2rem 8rem;
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.section-testimonial {
+    padding: 8rem 10rem;
+    background-color: #e5e7eb;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-style: italic ;
+    color: #1f2937;
+}
+.customer {
+    text-align: right;
+}
+
+.section-cta {
+    padding: 8rem 10rem;
+}
+
+.cta-container {
+    padding: 4rem 8rem;
+    background-color: #3882f6;
+    border-radius: 1rem;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.cta-text {
+    font-size: 18px;
+}
+
+.button.cta {
+    border-color: #f9faf8;
+    border-style:solid;
+    border-width: 0.0125;
+    color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
